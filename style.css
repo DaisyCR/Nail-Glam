@@ -19,7 +19,6 @@ hmtl {
 
 body {
     margin: 0;
-    width: 1366px;
     position: absolute;
     right: 0;
     left: 0;
@@ -99,7 +98,6 @@ body {
 
 .container-fluid {
     background-color: #cacecd;
-    width: 1366px;
 }
 
 /* CARROSSEL */
@@ -136,6 +134,10 @@ body {
     height: 580px;
     width: 100%;
     color: #394937;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
 }
 
 /* LOGO */
@@ -217,6 +219,25 @@ body {
 }
 
 /* SERVIÇOS */
+#servicos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 #servicos img {
-    width: 10px;
+    width: auto;
+    height: auto;
+}
+
+.btn-servico {
+    color: #000000;
+    background-color: #cacecd;
+    border-color: #cacecd;
+}
+
+.btn-servico:hover {
+    color: #ffffff;
+    background-color: #394937;
+    border-color: #394937;
 }
