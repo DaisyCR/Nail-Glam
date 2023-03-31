@@ -172,13 +172,40 @@ body {
 
 /* SOBRE */
 #sobre {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 35px;
-    grid-row-gap: 20px;
-} 
-        
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: 2vh auto;
+}
+
+#sobre-txt {
+    margin: auto;
+    width: 33vw
+}
+
+#sobre-tit {
+    color: #394937;
+    font-family: 'Playfair Display', serif;
+}
+
+#sobre-par {
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid #394937;
+    border-top: 1px solid #394937;
+}
+
+#sobre-par span{
+    font-family: 'Caveat', cursive;
+    margin-left: 3px;
+    font-size: 18px;
+}
+
+#sobre-tit span{
+    font-family: 'Caveat', cursive;
+    margin-left: 5px;
+}
+
 #img-manicure img {
     grid-area: 1 / 1 / 2 / 2;
     margin-top: 180px;
@@ -187,6 +214,17 @@ body {
     height: 400px;
     box-shadow: 15px 15px #394937d3;
 }
+
+/*Old code
+#sobre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 20px;
+} 
+        
+
 
 #sobre-tit {
     grid-area: 1 / 2 / 2 / 3;
@@ -217,12 +255,14 @@ body {
     margin-left: 3px;
     font-size: 18px;
 }
+*/
 
 /* SERVIÇOS */
 #servicos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 12vh;
 }
 
 #servicos img {
