@@ -13,7 +13,6 @@ hmtl {
 
 body {
     margin: 0;
-    width: 1366px;
     position: absolute;
     right: 0;
     left: 0;
@@ -41,6 +40,14 @@ body {
     margin: 0 auto;
 }
 
+#main {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    height: 90vh;
+    margin-top: 4vh;
+}
+
 #agendeja {
     background: #394937;
     background: radial-gradient(circle, rgba(57,73,55,1) 0%, rgba(102,147,97,1) 55%, rgba(102,147,97,1) 87%);
@@ -52,6 +59,9 @@ body {
 
 /* Seção de preenchimento de dados*/
 #agendamento {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(85, 117, 81, .8); 
     width: 800px;
     height: 200px;
@@ -67,6 +77,12 @@ body {
     font-size: 25px;
     font-weight: 100;
     margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
 }
 
 input {
