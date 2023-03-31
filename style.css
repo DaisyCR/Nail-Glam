@@ -1,0 +1,222 @@
+/* FONTeS
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Playfair Display', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+hmtl {
+    overflow: auto;
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    width: 1366px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* MENU DE NAVEGAÇÃO */
+/* Botões com hover para outra cor*/
+/* BOTÃO SOBRE */
+#sobre1 {
+    background-color: #cacecd;
+    border: none;
+    color:  rgb(85, 117, 81, .7);   
+    cursor: pointer;
+    margin-right: 8px;
+    padding: 1px 5px 1px 5px;
+    vertical-align: bottom;
+    transition: background-color 0.15s, color 0.15s ;
+}
+
+#sobre1:hover {
+    background-color:  rgb(85, 117, 81, .7);
+    color: #cacecd; 
+}
+
+/* BOTÃO SERVIÇOS */
+#servicos1 {
+    background-color: #cacecd;
+    border: none;
+    color:  rgb(85, 117, 81, .7);   
+    cursor: pointer;
+    margin-right: 8px;
+    padding: 1px 5px 1px 5px;
+    vertical-align: bottom;
+    transition: background-color 0.15s, color 0.15s ;
+}
+
+#servicos1:hover {
+    background-color:  rgb(85, 117, 81, .7);
+    color: #cacecd; 
+}
+
+/* BOTÃO CONTATO */
+#contato1 {
+    background-color: #cacecd;
+    border: none;
+    color:  rgb(85, 117, 81, .7);   
+    cursor: pointer;
+    margin-right: 8px;
+    padding: 1px 5px 1px 5px;
+    vertical-align: bottom;
+    transition: background-color 0.15s, color 0.15s ;
+}
+
+#contato1:hover {
+    background-color:  rgb(85, 117, 81, .7);
+    color: #cacecd; 
+}
+
+/* BOTÃO AGENDAMENTO */
+#agende1 {
+    background-color: #cacecd;
+    border: none;
+    color:  rgb(85, 117, 81, .7);   
+    cursor: pointer;
+    margin-right: 8px;
+    padding: 1px 5px 1px 5px;
+    vertical-align: bottom;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+#agende1:hover {
+    background-color:  rgb(85, 117, 81, .7);
+    color: #cacecd; 
+}
+
+.container-fluid {
+    background-color: #cacecd;
+    width: 1366px;
+}
+
+/* CARROSSEL */
+.bg-img-1 {
+    background-image: url(img/background.jpg);
+}
+
+.bg-img-2 {
+    background-image: url(img/background1.jpg);
+}
+
+.bg-img-3 {
+    background-image: url(img/background3.jpg);
+}
+
+.carousel-image {
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* NOME LOGO */
+.navbar-brand { 
+    font-family: 'Caveat', cursive;
+    color:#394937;
+    font-size: 35px;
+    margin-left: 40px;
+    margin-right: 800px ;
+    text-shadow: 2px 2px #afafaf;
+}
+
+#nav-bar {
+    height: 580px;
+    width: 100%;
+    color: #394937;
+}
+
+/* LOGO */
+#name {
+    background: #394937;
+    background: radial-gradient(circle, rgba(57,73,55,1) 0%, rgba(102,147,97,1) 55%, rgba(102,147,97,1) 87%);
+    width: 370px;
+    height: 180px;
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 120px;
+    border-radius: 5px 50px 5px 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#name h1 {
+    font-family: 'Caveat', cursive;
+    color: #C8CDCD;
+    padding: 24px 0px 0px 30px;
+    font-weight: 700px;
+    font-size: 70px;
+}
+
+#name h4 {
+    font-family: 'Playfair Display', serif;
+    color: #C8CDCD;
+    margin: -5px;
+    padding: 0px 0px 0px 40px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* SOBRE */
+#sobre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 20px;
+} 
+        
+#img-manicure img {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-top: 180px;
+    margin-left: 100px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 15px 15px #394937d3;
+}
+
+#sobre-tit {
+    grid-area: 1 / 2 / 2 / 3;
+    margin-top: 170px;
+    color: #394937;
+    font-family: 'Playfair Display', serif;
+}
+
+#sobre-tit span{
+    font-family: 'Caveat', cursive;
+    margin-left: 5px;
+}
+
+#sobre-par {
+    grid-area: 2 / 2 / 3 / 3;
+    text-align: justify;
+    width: 510px;
+    margin-top: -360px;
+    margin-bottom: 600px;
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid #394937;
+    border-top: 1px solid #394937;
+    padding-top: 10px;
+}
+
+#sobre-par span{
+    font-family: 'Caveat', cursive;
+    margin-left: 3px;
+    font-size: 18px;
+}
+
+/* SERVIÇOS */
+#servicos img {
+    width: 10px;
+}
